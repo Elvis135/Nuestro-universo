@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080514"><title>Nuestro Universo ✨</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="cosmos" aria-hidden="true"><div class="nebula nebula-a"></div><div class="nebula nebula-b"></div><div id="stars" class="stars"></div><div id="shooting" class="shooting"></div></div>
+<div class="app">
+ <section id="intro" class="screen active" aria-label="Bienvenida">
+  <div class="intro-card"><div class="tape"></div><p class="handwritten intro-title">Escrito en las estrellas</p><p class="intro-sub">para ti...</p><div class="bears">♡ <span>🐻</span> <span>🐻</span> ♡</div><p class="handwritten intro-note">Feliz aniversario, mi niña preciosa.</p><button class="heart-button" id="start" aria-label="Abrir nuestro universo">♥</button><small>Toca el corazón para entrar</small></div>
+ </section>
+ <section id="story" class="screen" aria-label="Nuestra historia">
+  <div class="story-wrap"><p class="eyebrow">NUESTRO UNIVERSO</p><h1>Hay historias que están <em>escritas en las estrellas</em></h1><div class="star-pair"><div class="named-star"><span class="big-star">✦</span><span>yo</span></div><div class="constellation-line"></div><div class="named-star"><span class="big-star pink">✦</span><span>tú</span></div></div><p class="story-text" id="storyText">Dicen que todo empezó con una gran explosión... la nuestra empezó el día que te conocí.</p><p class="story-small">Y desde entonces, cada instante tiene un brillo especial.</p><button id="discover" class="outline-btn">Descubre nuestro universo <span>✦</span></button></div>
+ </section>
+ <section id="universe" class="screen" aria-label="Nuestros recuerdos">
+  <header class="universe-header"><span>ESTE ES NUESTRO CIELO ✨</span><h2>Feliz aniversario, <em>mi niña</em></h2><p>Un universo de recuerdos, una historia que sigue brillando.</p></header>
+  <div class="galaxy-stage" id="galaxyStage"><div class="galaxy-glow"></div><canvas id="heartCanvas" aria-hidden="true"></canvas><div id="photoCloud" class="photo-cloud"></div><div class="center-heart">♥</div></div>
+  <p class="gesture">Toca una fotografía para verla de cerca ♡</p>
+  <button id="openLetter" class="outline-btn letter-trigger">💌 Leer mi carta</button>
+  <p class="bottom-date">Todo comenzó el 08 · 08 · 2026</p>
+ </section>
+</div>
+<div id="letterModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="letterTitle"><div class="paper"><button id="closeLetter" class="close" aria-label="Cerrar carta">×</button><p class="paper-date">08 de agosto de 2026 ♡</p><h2 id="letterTitle">Mi amor:</h2><p>Hay encuentros en esta vida que parecen casualidad, pero yo creo que Dios permitió que nuestros caminos se encontraran.</p><p>Desde aquel 8 de agosto de 2026, cada conversación, sonrisa y recuerdo se ha convertido en una parte muy especial de mi historia.</p><p>Gracias por tu confianza, por tu alegría y por permitirme compartir tantos momentos bonitos contigo.</p><p>Deseo que sigamos construyendo nuestra historia con respeto, cariño y con Dios guiando cada paso.</p><p class="paper-love">Te amo mi niñaaaa ❤️</p><p class="paper-sign">Con todo mi cariño ♡</p></div></div>
+<div id="photoModal" class="modal photo-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Fotografía ampliada"><button id="closePhoto" class="photo-close" aria-label="Cerrar fotografía">×</button><img id="largePhoto" src="assets/fotos/foto1.jpg" alt="Nuestro recuerdo ampliado"><span id="photoNumber">Nuestro recuerdo ♡</span></div>
+<button id="musicToggle" class="music-toggle" aria-label="Reproducir música" title="Reproducir o pausar música">♫</button><audio id="music" src="assets/musica/cancion.mp3" preload="auto" loop></audio>
+<script src="script.js"></script></body></html>

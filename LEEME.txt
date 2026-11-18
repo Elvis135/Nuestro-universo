@@ -1,0 +1,11 @@
+NUESTRO UNIVERSO - PROYECTO WEB INDEPENDIENTE
+
+1. Abre index.html en el navegador (o con Live Server).
+2. Pulsa el corazon de bienvenida.
+3. Pulsa Descubre nuestro universo para ver el corazon y las siete fotos.
+4. Pulsa una foto para ampliarla o Leer mi carta.
+5. La musica se intenta iniciar automaticamente; algunos navegadores requieren un toque.
+
+Archivos: index.html, style.css, script.js, assets/fotos/foto1.jpg a foto7.jpg y assets/musica/cancion.mp3.
+
+Proyecto nuevo: no sobrescribe los anteriores.
